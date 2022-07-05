@@ -1,0 +1,56 @@
+/* venus */
+$hair: #fbff81;
+$hair_shadow: #daa300;
+$hairpin: #e18c79;
+$face: #feeae6;
+$collar: #f6b401;
+$coat: #ebebfa;
+$skirt: #628ac9;
+$sick_socks: #eef0ff;
+
+$main_colour: $hair;
+$theme_colour: $hair_shadow;
+$font_backgroud_colour: $sick_socks;
+
+$body_colour: $theme_colour;
+$body_backgroud_colour: $font_backgroud_colour;
+$body_font_size: 15px;
+$sidebar_colour: $sick_socks;
+$sidebar_a_hover_colour: $hair;
+$sidebar_background_colour: $collar;
+$scrollbar_colour: $main_colour;
+$scrollbar_thumb_colour: $body_backgroud_colour;
+$scrollbar_track_colour: $main_colour;
+$header_text_shadow: 2px 4px 5px $hair;
+$header_border_colour: $hair_shadow;
+$header_a_colour: $collar;
+$page_table_border: 1px solid $theme_colour;
+
+/* content */
+$content_code_background: $font_backgroud_colour;
+
+$code_webkit_box_shadow: inset 0 1px 10px #b68d9e4d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
+$code_moz_box_shadow: inset 0 1px 10px #0000004d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
+$code_box_shadow: inset 0 1px 10px #0000004d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
+
+$content_em_strong_text_shadow: 1px 1px 2px $main_colour;
+$content_em_strong_colour: $theme_colour;
+$content_strong_text_shadow: 0 0 2px $main_colour;
+$content_strong_colour: $theme_colour;
+
+/* block */
+$block_backgroud_colour: $sick_socks;
+$block_colour: $main_colour;
+
+$ref_background: $theme_colour;
+$ref_colour: $sick_socks;
+$ref_code_colour: $ref_colour;
+$ref_code_webkit_box_shadow: inset 0 1px 10px #e0dcdc4d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
+$tip_background: #454849;
+$tip_border_top_colour: #284750;
+$note_background: #454b5e;
+$note_border_top_colour: #070d1d;
+$info_background: #2b2520;
+$info_border_top_colour: #271200;
+$warn_background: #533f3f;
+$warn_border_top_colour: #270000;
