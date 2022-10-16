@@ -1,5 +1,5 @@
 ---
-title: "6. 安全性上的考量"
+title: "6. 关于安全性的考量"
 anchor: "6_Security_Considerations"
 weight: 600
 rank: "h1"
