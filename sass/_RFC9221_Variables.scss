@@ -7,31 +7,35 @@ $collar: #f6b401;
 $coat: #ebebfa;
 $skirt: #628ac9;
 $sick_socks: #eef0ff;
+$wand:#545150;
 
 $main_colour: $hair;
 $theme_colour: $hair_shadow;
 $font_backgroud_colour: $sick_socks;
 
-$body_colour: $theme_colour;
+$body_colour: $wand;
 $body_backgroud_colour: $font_backgroud_colour;
 $body_font_size: 15px;
 $sidebar_colour: $sick_socks;
 $sidebar_a_hover_colour: $hair;
-$sidebar_background_colour: $collar;
+$sidebar_background_colour: $hair_shadow;
 $scrollbar_colour: $main_colour;
 $scrollbar_thumb_colour: $body_backgroud_colour;
 $scrollbar_track_colour: $main_colour;
-$header_text_shadow: 2px 4px 5px $hair;
+$header_text_shadow: 2px 2px 2px $collar;
 $header_border_colour: $hair_shadow;
-$header_a_colour: $collar;
+$header_a_colour: $hairpin;
 $page_table_border: 1px solid $theme_colour;
 
 /* content */
 $content_code_background: $font_backgroud_colour;
 
-$code_webkit_box_shadow: inset 0 1px 10px #b68d9e4d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
-$code_moz_box_shadow: inset 0 1px 10px #0000004d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
-$code_box_shadow: inset 0 1px 10px #0000004d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
+$code_box_shadow_colour1: $collar;
+$code_box_shadow_colour2: #dcc9c21a;
+$code_box_shadow_colour3: #f1e4b91a;
+$code_webkit_box_shadow: inset 0 1px 10px $code_box_shadow_colour1, 0 1px 0 $code_box_shadow_colour2, 0 -1px 0 $code_box_shadow_colour3;
+$code_moz_box_shadow: inset 0 1px 10px $code_box_shadow_colour1, 0 1px 0 $code_box_shadow_colour2, 0 -1px 0 $code_box_shadow_colour3;
+$code_box_shadow: inset 0 1px 10px $code_box_shadow_colour1, 0 1px 0 $code_box_shadow_colour2, 0 -1px 0 $code_box_shadow_colour3;
 
 $content_em_strong_text_shadow: 1px 1px 2px $main_colour;
 $content_em_strong_colour: $theme_colour;
